@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+![image](https://github.com/amiladimantha/DelectableDining/assets/84844150/cae1aeb1-a058-4a39-b471-c50ec9c77728)
+# Delectable Dining
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Built With
 
-## Available Scripts
+- React.js
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+- Click [here](https://delectable-dining.vercel.app/) to view the live demo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get started with this, follow these simple steps:
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Make sure you have node `16.0.0` or higher and npm `9.0.0` or higher installed.
 
-### `npm run build`
+### Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- With git, clone the code to your machine, or download a ZIP of all the files directly.
+- [Download the ZIP file from this location](https://github.com/amiladimantha/DelectableDining/archive/refs/heads/master.zip) or run the following [git](https://git-scm.com/) command to clone the files to your machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone https://github.com/amiladimantha/DelectableDining.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Once the files are on your machine, open the **delectable-dining** folder in [Visual Studio Code](https://code.visualstudio.com/download).
 
-### `npm run eject`
+```
+cd delectable-dining && code .
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- After opening the files in Visual Studio Code, open the **VS Code** integrated terminal and run the following commands:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This will install all the packages and dependencies used in the project.
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Run the following command to start a local server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm start
+```
 
-### Code Splitting
+This will open up the project on a browser on ` http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Build
 
-### Analyzing the Bundle Size
+- To create a production build:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm run build
+```
 
-### Making a Progressive Web App
+- To preview the site as it will appear once deployed:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+npm run preview
+```
 
-### Advanced Configuration
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👤 **Amila Dimantha**
 
-### Deployment
+- GitHub: [@amiladimantha](https://github.com/amiladimantha)
+- LinkedIn: [Amila Dimantha](https://www.linkedin.com/in/amila-dimantha-37182a21b)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Feedback and Contributions
 
-### `npm run build` fails to minify
+Your feedback, suggestions, and contributions are greatly appreciated in this project. Whether you want to provide input, propose improvements, or submit your ideas and enhancements, your involvement is highly valued. Keep in mind that this is just the beginning, and the real beauty lies in personalizing it to reflect your individual talents and achievements. Enjoy the process of crafting impressive projects that truly represents your skills!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Wishing you a fulfilling experience as you code and showcase your work!
+
+## Show your support
+
+Give a ⭐️ if you like this project!

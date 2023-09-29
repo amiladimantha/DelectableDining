@@ -1,0 +1,91 @@
+.full-menu .ant-modal-content {
+    width: 100%; /* Set a percentage width for responsiveness */
+    max-width: 1000px; /* Add a maximum width to maintain readability on larger screens */
+    display: flex;
+    flex-direction: column;
+    border:1px solid #b9951f;
+  }
+
+  .full-menu .ant-modal-content {
+    background-color: rgba(255, 255, 255, 0.3); /* Set the background color to semi-transparent black */
+    color: white;
+  }
+  
+  .full-menu .ant-modal-header {
+    background-color:transparent; /* Set the background color to semi-transparent black */
+    color: white;
+  }
+  
+  
+  .app__sMenu {
+    flex-direction: column;
+    background: var(--color-black);
+    padding: 1rem; /* Add padding to the container for better spacing */
+  }
+  
+  .app__sMenu-title {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .app__sMenu-menu {
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  
+  .app__sMenu-menu_heading {
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 3rem; /* Adjust font size for smaller screens */
+    line-height: 1.2; /* Adjust line height for better readability */
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+    text-align: center; /* Center the headings on smaller screens */
+  }
+  
+  .app__sMenu-menu_wine,
+  .app__sMenu-menu_cocktails {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    margin: 1rem; /* Add margin to the menu items for spacing */
+  }
+  
+  .app__sMenu-menu_img {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .app__sMenu-menu_img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .app__sMenu_menu_items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+  }
+  
+  /* Remove the media query for 2000px as it's not necessary */
+  
+  @media screen and (max-width: 1150px) {
+    .app__sMenu-menu {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .app__sMenu-menu_heading {
+      font-size: 2.5rem; /* Further reduce font size for smaller screens */
+    }
+  }
+  

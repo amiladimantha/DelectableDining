@@ -1,0 +1,24 @@
+.booking-form .ant-modal-content {
+    background-color: rgba(255, 255, 255, 0.3); /* Set the background color to semi-transparent black */
+    color: white;
+    border:1px solid #b9951f;
+  }
+  
+  .booking-form .ant-modal-header {
+    background-color:transparent; /* Set the background color to semi-transparent black */
+    color: white;
+  }
+  
+
+.ant-modal .ant-modal-title {
+    color: white;
+  }
+  
+  .ant-form-item .ant-form-item-label > label {
+    color: white; /* Set the label text color to white */
+    width: 100px;
+  }
+
+  .form-item{
+    width: 100%;
+}
